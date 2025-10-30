@@ -1,0 +1,18 @@
+﻿:root { --ok:#16a34a; --bad:#dc2626; --muted:#6b7280; }
+*{box-sizing:border-box} body{font-family:ui-sans-serif,system-ui,Segoe UI,Roboto,Arial; background:#0b1020; color:#e5e7eb; margin:0; padding:24px}
+.container{max-width:680px;margin:0 auto}
+h1{margin:0 0 6px 0;font-size:28px} .subtitle{color:#a1a1aa;margin:0 0 20px 0}
+.dropzone{border:2px dashed #334155;border-radius:12px;padding:18px;text-align:center;background:#0f152b}
+.dropzone.drag{border-color:#64748b;background:#111833}
+.dropzone input{display:block;margin:0 auto 8px auto}
+.dropzone img{display:none;max-width:100%;max-height:280px;border-radius:8px;margin-top:8px}
+button{margin-top:12px;background:#2563eb;border:0;color:white;padding:10px 16px;border-radius:10px;font-weight:600;cursor:pointer}
+button[disabled]{opacity:.4;cursor:not-allowed}
+.result{margin-top:16px;padding:14px;border-radius:12px;background:#0f152b;border:1px solid #1f2937}
+.result .kv{display:flex;gap:8px;margin-top:6px;color:#cbd5e1}
+.result .kv span{width:96px;color:#9ca3af}
+.badge{display:inline-block;margin-bottom:8px;padding:6px 10px;border-radius:999px;font-weight:700}
+.badge.ok{background:color-mix(in oklab, var(--ok) 20%, transparent); color:var(--ok); border:1px solid color-mix(in oklab, var(--ok) 50%, transparent)}
+.badge.bad{background:color-mix(in oklab, var(--bad) 20%, transparent); color:var(--bad); border:1px solid color-mix(in oklab, var(--bad) 50%, transparent)}
+.error{margin-top:12px;color:#fca5a5;background:#3f1d1d;border:1px solid #7f1d1d;padding:12px;border-radius:10px}
+.hidden{display:none}

@@ -1,0 +1,19 @@
+﻿# venv y archivos temporales
+.venv*
+__pycache__/
+*.pyc
+
+# modelos y data pesados
+data/
+reports/
+models/
+*.npy
+*.csv
+*.joblib
+
+# entorno y cache
+.env
+.DS_Store
+
+# notebooks temporales
+*.ipynb_checkpoints/
